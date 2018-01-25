@@ -20,9 +20,9 @@ namespace GameTemplate.Screens
             InitializeComponent();
 
             ScreenControl.setComponentValues(this);
-            defaultOverride();
+            //defaultOverride();
         }
-
+        //change screens
         private void casesButton_Click(object sender, EventArgs e)
         {
             ScreenControl.changeScreen(this, "CasesScreen");
@@ -48,8 +48,6 @@ namespace GameTemplate.Screens
                 c.Location = new Point(c.Location.X, c.Location.Y + 75);             
             }
 
-            gameTitle.Font = new Font("Courier New", 30);
-            gameTitle.Location = new Point(ScreenControl.controlWidth / 2 - gameTitle.Size.Width / 2, 50);
         }
 
 

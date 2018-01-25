@@ -64,6 +64,9 @@ namespace GameTemplate
                 case "MenuScreen":
                     ns = new MenuScreen();
                     break;
+                case "AnimationScreen":
+                    ns = new Animation();
+                    break;
             }
 
             ns.Size = new Size(controlWidth, controlHeight);

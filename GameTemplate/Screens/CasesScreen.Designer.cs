@@ -158,9 +158,6 @@
             // 
             // gameTick
             // 
-            this.gameTick.Enabled = true;
-            this.gameTick.Interval = 10;
-            this.gameTick.Tick += new System.EventHandler(this.gameTick_Tick);
             // 
             // CasesScreen
             // 

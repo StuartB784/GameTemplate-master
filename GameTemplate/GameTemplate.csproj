@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Screens\Animation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\Animation.Designer.cs">
+      <DependentUpon>Animation.cs</DependentUpon>
+    </Compile>
     <Compile Include="buttonvisible.cs" />
     <Compile Include="Screens\CasesScreen.cs">
       <SubType>UserControl</SubType>
@@ -92,7 +98,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Screens\Animation.resx">
+      <DependentUpon>Animation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\CasesScreen.resx">
       <DependentUpon>CasesScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +127,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AK-47_Aquamarine_Revenge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AWP_Hyper_Beast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CZ75-Auto_Yellow_Jacket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falchion_Knife_Slaughter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAMAS_Neural_Net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Galil_AR_Rocket_Pop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glock-18_Bunsen_Burner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4A4_Evil_Daimyo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MP7_Nemesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MP9_Ruby_Poison_Dart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Negev_Loudmouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nova_Ranger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P90_Elite_Build.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P2000_Handgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SG_553_Cyrex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UMP-45_Riot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USP-S_Torque.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
